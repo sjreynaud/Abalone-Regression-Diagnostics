@@ -1,35 +1,21 @@
-Assignment Overview
+***Assignment Overview***
 This assignment contains three major components:
 
-1. Abalone Regression (Kaggle Dataset)
+**1. Abalone Regression (Kaggle Dataset)**
 The goal is to predict abalone age (Rings) using supervised regression models.
 The notebook performs:
 
-Data loading and inspection
+  -Data loading and inspection
 
-Feature identification (categorical vs numeric)
+  - Preprocessing using OneHotEncoder and ColumnTransformer
+  - Train/validation split
+  - Model training:
+    **- Linear Regression**
+    **- Random Forest Regression**
 
-Preprocessing using OneHotEncoder and ColumnTransformer
-
-Train/validation split
-
-Model training:
-
-Linear Regression
-
-Random Forest Regression
-
-RMSE comparison
-
-Diagnostic plots:
-
-Residuals vs Predicted
-
-Residual distribution
-
-QQ plot
-
-Final predictions saved to submissions/my_abalone_submission.csv
+  - RMSE comparison
+  - Diagnostic plots (Residual distribution, QQ plot)
+  - Final predictions saved to submissions/my_abalone_submission.csv
 
 All code and outputs are based directly on the dataset shown in the attached document, including the columns:
 
